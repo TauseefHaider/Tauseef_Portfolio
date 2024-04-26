@@ -36,10 +36,10 @@ function App() {
   }, []);
   AOS.init();
   return (
-    <div className="max-w-7xl m-auto relative overflow-x-hidden">
+    <div className="max-w-7xl m-auto relative overflow-x-hidden lg:overflow-x-visible">
       <header data-aos-delay="300" data-aos="fade-down">
         <div className="container m-auto px-4 py-6 max-w-7xl bg-[#171F38]">
-          <div className="flex flex-col gap-4 sm:flex-row justify-between items-center">
+          <div className="flex flex-col gap-4 lg:flex-row justify-between items-center">
             <div>
               <h1 className="font-bold text-2xl">Sharjeel Portfolio</h1>
             </div>
@@ -77,12 +77,12 @@ function App() {
           </div>
         </div>
       </header>
-      <main className="relative mt-2 md:mt-28">
+      <main className="relative mt-2 m-auto lg:mt-28">
         {/* Intro/Banner section */}
         <section>
-          <div className="container m-auto md:pt-12 md:pb-12 sm:pt-20 flex flex-col sm:flex-row gap-16 text-center sm:text-left">
+          <div className="container m-auto px-2 lg:pt-12 lg:pb-12 sm:pt-20 flex flex-col lg:flex-row gap-16 text-center lg:text-left">
             <div
-              className="order-2 md:order-1"
+              className="order-2 lg:order-1"
               data-aos-delay="150"
               data-aos="fade-right "
             >
@@ -103,7 +103,7 @@ function App() {
 
                 <a
                   data-aos="zoom-out-up"
-                  className="flex justify-center md:block"
+                  className="flex justify-center lg:block"
                   href="https://drive.usercontent.google.com/u/0/uc?id=1zjVobe0gFW0po0V0vvnJV8c0O-iR_fTz&export=download"
                 >
                   <button class="px-8 shadow-gray-500 shadow-md py-4 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 flex justify-center">
@@ -129,9 +129,9 @@ function App() {
             <div
               data-aos-delay="150"
               data-aos="fade-left"
-              className="relative md:mb-4 md:bottom-16 flex-1 order-1 md:order-2"
+              className="relative md:mb-4 md:bottom-16 flex-1 order-1 lg:order-2"
             >
-              <div className="after:bg-[url('./assets/large-long.png')] after:bg-contain after:block after:bg-no-repeat md:after:w-[420px] after:w-[200px]  after:h-[320px] after:absolute after:top-0 md:after:-left-20 sm:after:-left-40 before:bg-[url('./assets/small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-10  md:before:-right-16">
+              <div className="after:bg-[url('./assets/large-long.png')] after:bg-contain after:block after:bg-no-repeat md:after:w-[420px] after:w-[200px]  after:h-[320px] after:absolute after:top-0 md:after:-left-20 sm:after:-left-40 before:bg-[url('./assets/small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-6  md:before:right">
                 <img
                   src={Profile1}
                   className="relative  z-10 w-[280px]  m-auto sm:w-[400px]"
