@@ -77,10 +77,10 @@ function App() {
           </div>
         </div>
       </header>
-      <main className="relative mt-28">
+      <main className="relative mt-2 md:mt-28">
         {/* Intro/Banner section */}
         <section>
-          <div className="container m-auto md:pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-16 text-center sm:text-left">
+          <div className="container m-auto md:pt-12 md:pb-12 sm:pt-20 flex flex-col sm:flex-row gap-16 text-center sm:text-left">
             <div
               className="order-2 md:order-1"
               data-aos-delay="150"
