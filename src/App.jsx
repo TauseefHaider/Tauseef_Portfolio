@@ -6,13 +6,10 @@ import tailwind from "../src/assets/tailwind.png";
 import javascript from "../src/assets/javascript.png";
 import reactlogo from "../src/assets/react.png";
 import firebase from "../src/assets/firebase.png";
-import git from "../src/assets/git.png";
 import github from "../src/assets/github.png";
 import sass from "../src/assets/sass.png";
 import Project1 from "./assets/project1.png";
 import Project2 from "./assets/project2.png";
-
-import Facebook from "./assets/facebook.svg";
 import LinkedIn from "./assets/linkedin.svg";
 import Instagram from "./assets/instagram.svg";
 import ArrowDown from "./assets/arrow-down.svg";
@@ -130,7 +127,7 @@ function App() {
               data-aos="fade-left"
               className="relative mb-4 md:bottom-16 "
             >
-              <div className="after:bg-[url('./large-long.png')] after:bg-contain after:block after:bg-no-repeat md:after:w-[420px] after:w-[200px]  after:h-[320px] after:absolute after:top-0 md:after:-left-20 sm:after:-left-40 before:bg-[url('./small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-10  md:before:-right-16">
+              <div className="after:bg-[url('./assets/large-long.png')] after:bg-contain after:block after:bg-no-repeat md:after:w-[420px] after:w-[200px]  after:h-[320px] after:absolute after:top-0 md:after:-left-20 sm:after:-left-40 before:bg-[url('./assets/small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-10  md:before:-right-16">
                 <img
                   src={Profile1}
                   className="relative  z-10 w-[280px]  m-auto sm:w-[400px]"
