@@ -80,8 +80,12 @@ function App() {
       <main className="relative mt-28">
         {/* Intro/Banner section */}
         <section>
-          <div className="container m-auto px-4 pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-16 text-center sm:text-left">
-            <div data-aos-delay="150" data-aos="fade-right">
+          <div className="container m-auto md:pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-16 text-center sm:text-left">
+            <div
+              className="order-2 md:order-1"
+              data-aos-delay="150"
+              data-aos="fade-right "
+            >
               <h2 className="font-bold text-4xl">Hello, I'm Sharjeel Ahmed</h2>
               <div>
                 <h2 className="font-bold text-2xl md:text-4xl mt-1 gradiant-text">
@@ -125,7 +129,7 @@ function App() {
             <div
               data-aos-delay="150"
               data-aos="fade-left"
-              className="relative mb-4 md:bottom-16 "
+              className="relative md:mb-4 md:bottom-16 flex-1 order-1 md:order-2"
             >
               <div className="after:bg-[url('./assets/large-long.png')] after:bg-contain after:block after:bg-no-repeat md:after:w-[420px] after:w-[200px]  after:h-[320px] after:absolute after:top-0 md:after:-left-20 sm:after:-left-40 before:bg-[url('./assets/small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-10  md:before:-right-16">
                 <img
