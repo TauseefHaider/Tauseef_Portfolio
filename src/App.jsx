@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="max-w-7xl m-auto relative">
       <header data-aos-delay="300" data-aos="fade-down">
-        <div className="container m-auto px-4 py-6 max-w-7xl bg-black">
+        <div className="container m-auto px-4 py-6 max-w-7xl bg-[#171F38]">
           <div className="flex flex-col gap-4 sm:flex-row justify-between items-center">
             <div>
               <h1 className="font-bold text-2xl">Sharjeel Portfolio</h1>
@@ -146,7 +146,7 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-10 mt-11">
               <div
                 data-aos="flip-left"
-                class="m-12 bg-black shadow-sm shadow-gray-300  rounded-xl hover:scale-110 duration-700 p-5"
+                class="m-12 bg-[#171F38]  shadow-[#209CE4] shadow-xl border-2  border-[#209CE4] rounded-xl hover:scale-110 duration-700 p-5"
               >
                 <img src={Project1} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">Olx UI Clone</h3>
@@ -191,7 +191,7 @@ function App() {
               </div>
               <div
                 data-aos="flip-right"
-                class="m-12 bg-black shadow-sm shadow-gray-300  rounded-xl hover:scale-110 duration-700 p-5"
+                class="m-12 bg-[#171F38] shadow-[#209CE4] shadow-xl border-[#209CE4]  border-2  rounded-xl hover:scale-110 duration-700 p-5"
               >
                 <img src={Project2} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">Airbnb Clone</h3>
@@ -454,7 +454,7 @@ function App() {
       <footer>
         <div className="container m-auto flex justify-between px-4 py-6">
           <div>
-            <p className="text-gray-300 text-sm">Copyright @ 2023</p>
+            <p className="text-gray-300 text-sm">Copyright @ 2024</p>
           </div>
           <div>
             <ul className="flex gap-4">
