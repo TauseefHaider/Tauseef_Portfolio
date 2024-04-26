@@ -39,7 +39,7 @@ function App() {
   }, []);
   AOS.init();
   return (
-    <div className="max-w-7xl m-auto relative">
+    <div className="max-w-7xl m-auto relative overflow-x-hidden">
       <header data-aos-delay="300" data-aos="fade-down">
         <div className="container m-auto px-4 py-6 max-w-7xl bg-[#171F38]">
           <div className="flex flex-col gap-4 sm:flex-row justify-between items-center">
@@ -87,7 +87,7 @@ function App() {
             <div data-aos-delay="150" data-aos="fade-right">
               <h2 className="font-bold text-4xl">Hello, I'm Sharjeel Ahmed</h2>
               <div>
-                <h2 className="font-bold text-4xl mt-1 gradiant-text">
+                <h2 className="font-bold text-2xl md:text-4xl mt-1 gradiant-text">
                   Front-End Web Developer
                 </h2>
               </div>
@@ -128,9 +128,9 @@ function App() {
             <div
               data-aos-delay="150"
               data-aos="fade-left"
-              className="relative mb-4 md:bottom-16"
+              className="relative mb-4 md:bottom-16 "
             >
-              <div className="after:bg-[url('./large-long.png')] after:bg-contain after:block after:bg-no-repeat after:w-[420px] after:h-[320px] after:absolute after:top-0 after:-left-20 sm:after:-left-40 before:bg-[url('./small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-10  md:before:-right-20">
+              <div className="after:bg-[url('./large-long.png')] after:bg-contain after:block after:bg-no-repeat md:after:w-[420px] after:w-[200px]  after:h-[320px] after:absolute after:top-0 md:after:-left-20 sm:after:-left-40 before:bg-[url('./small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-8  md:before:-right-20">
                 <img
                   src={Profile1}
                   className="relative  z-10 w-[280px]  m-auto sm:w-[400px]"
@@ -146,7 +146,7 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-10 mt-11">
               <div
                 data-aos="flip-left"
-                class="m-12 bg-[#171F38]  shadow-[#209CE4] shadow-xl border-2  border-[#209CE4] rounded-xl hover:scale-110 duration-700 p-5"
+                class="md:m-12 bg-[#171F38]  shadow-[#209CE4] shadow-xl border-2  border-[#209CE4] rounded-xl hover:scale-110 duration-700 p-5"
               >
                 <img src={Project1} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">Olx UI Clone</h3>
@@ -184,14 +184,14 @@ function App() {
                     href="https://react-olx-clone-xi.vercel.app/"
                   >
                     <button class="group flex justify-center items-center gap-2 group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-neutral-900 duration-500 hover:duration-500 underline underline-offset-2 hover:underline hover:underline-offset-4 origin-left hover:decoration-2 hover:text-neutral-300 relative bg-neutral-900 px-4 py-4 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden after:absolute after:z-10 after:w-12 after:h-12 after:content[''] after:bg-sky-900 after:-left-8 after:top-8 after:rounded-full after:blur-lg hover:after:animate-pulse">
-                      Live preview
+                      preview
                     </button>
                   </a>
                 </div>
               </div>
               <div
                 data-aos="flip-right"
-                class="m-12 bg-[#171F38] shadow-[#209CE4] shadow-xl border-[#209CE4]  border-2  rounded-xl hover:scale-110 duration-700 p-5"
+                class="md:m-12 bg-[#171F38] shadow-[#209CE4] shadow-xl border-[#209CE4]  border-2  rounded-xl hover:scale-110 duration-700 p-5"
               >
                 <img src={Project2} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">Airbnb Clone</h3>
@@ -229,7 +229,7 @@ function App() {
                     href="https://profolio-2-airbnbclone.netlify.app/"
                   >
                     <button class="group flex justify-center items-center gap-2 group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-neutral-900 duration-500 hover:duration-500 underline underline-offset-2 hover:underline hover:underline-offset-4 origin-left hover:decoration-2 hover:text-neutral-300 relative bg-neutral-900 px-4 py-4 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden after:absolute after:z-10 after:w-12 after:h-12 after:content[''] after:bg-sky-900 after:-left-8 after:top-8 after:rounded-full after:blur-lg hover:after:animate-pulse">
-                      Live preview
+                      preview
                     </button>
                   </a>
                 </div>
@@ -485,7 +485,7 @@ function App() {
       </footer>
       {scrolling && (
         <button
-          className="fixed block right-8 bottom-0 w-24"
+          className="fixed block right-2 md:right-8 bottom-0 w-24"
           onClick={() => {
             window.scrollTo(0, 0);
           }}

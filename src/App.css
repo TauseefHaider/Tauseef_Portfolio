@@ -12,14 +12,24 @@ body {
     @apply bg-gradient-to-t from-blue-500 to-cyan-500 text-transparent;
     overflow: hidden;
     border-right: 2px solid #fff;
-    animation: typing-text steps(40) 3s infinite, blink ease 0.3s infinite;
     text-wrap: nowrap;
     display: inline-block;
-    width: max-content;
-    width: 0;
+    width: max-content; /* Default width */
+    width: 0; /* Default width */
 }
 
-@keyframes typing-text {
+/* Default keyframes for small devices */
+@keyframes typing-text-small {
+    from {
+        width: 0%;
+    } 
+    to {
+        width: 100%;
+    }
+}
+
+/* Keyframes for medium devices and above */
+@keyframes typing-text-medium {
     from {
         width: 0%;
     } 
@@ -28,8 +38,18 @@ body {
     }
 }
 
-@keyframes typing-text {
-    to {
-        border-color: transparent;
+/* Media Query for small devices */
+@media (max-width: 767px) {
+    .gradiant-text {
+        animation: typing-text-small steps(30) 3s infinite, blink ease 0.3s infinite;
     }
 }
+
+/* Media Query for medium devices and above */
+@media (min-width: 768px) {
+    .gradiant-text {
+        animation: typing-text-medium steps(40) 3s infinite, blink ease 0.3s infinite;
+    }
+}
+
+/* Add these styles to your existing App.css file */
