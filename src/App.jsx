@@ -1,5 +1,5 @@
 import "./App.css";
-import Profile1 from "./assets/p1.png";
+import Profile1 from "./assets/dp.jpg";
 import html from "../src/assets/html.png";
 import css from "../src/assets/css.png";
 import tailwind from "../src/assets/tailwind.png";
