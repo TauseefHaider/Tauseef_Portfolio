@@ -1,5 +1,5 @@
 import "./App.css";
-import Profile1 from "./assets/profile-4.png";
+import Profile1 from "./assets/p1.png";
 import html from "../src/assets/html.png";
 import css from "../src/assets/css.png";
 import tailwind from "../src/assets/tailwind.png";
@@ -41,7 +41,7 @@ function App() {
         <div className="container m-auto px-4 py-6 max-w-7xl bg-[#171F38]">
           <div className="flex flex-col gap-4 lg:flex-row justify-between items-center">
             <div>
-              <h1 className="font-bold text-2xl">Sharjeel Portfolio</h1>
+              <h1 className="font-bold text-2xl">Tauseef Haider's Portfolio</h1>
             </div>
             <div>
               <ul className="flex gap-4">
@@ -86,7 +86,7 @@ function App() {
               data-aos-delay="150"
               data-aos="fade-right "
             >
-              <h2 className="font-bold text-4xl">Hello, I'm Sharjeel Ahmed</h2>
+              <h2 className="font-bold text-4xl">Hello, I'm Tauseef Haider</h2>
               <div>
                 <h2 className="font-bold text-2xl md:text-4xl mt-1 gradiant-text">
                   Front-End Web Developer
@@ -104,7 +104,7 @@ function App() {
                 <a
                   data-aos="zoom-out-up"
                   className="flex justify-center lg:block"
-                  href="https://drive.usercontent.google.com/u/0/uc?id=1zjVobe0gFW0po0V0vvnJV8c0O-iR_fTz&export=download"
+                  href="https://drive.usercontent.google.com/u/0/uc?id=1rrISBwCM_XuEdH9ymDilXW33m-HcQY4I&export=download"
                 >
                   <button class="px-8 shadow-gray-500 shadow-md py-4 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 flex justify-center">
                     Download resume {"\t"}
@@ -134,7 +134,7 @@ function App() {
               <div className="after:bg-[url('./assets/large-long.png')] after:bg-contain after:block after:bg-no-repeat md:after:w-[420px] after:w-[200px]  after:h-[320px] after:absolute after:top-0 md:after:-left-20 sm:after:-left-40 before:bg-[url('./assets/small.png')] before:bg-contain before:block before:bg-no-repeat before:w-[220px] before:h-[220px] before:absolute before:bottom-0 before:-right-6  md:before:right">
                 <img
                   src={Profile1}
-                  className="relative  z-10 w-[280px]  m-auto sm:w-[400px]"
+                  className="relative rounded-full z-10 w-[290px]  m-auto sm:w-[400px]"
                 />
               </div>
             </div>
@@ -150,16 +150,17 @@ function App() {
                 class="md:m-12 bg-[#171F38]  shadow-[#209CE4] shadow-xl border-2  border-[#209CE4] rounded-xl hover:scale-110 duration-700 p-5"
               >
                 <img src={Project1} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold mt-8">Olx UI Clone</h3>
+                <h3 className="text-2xl font-semibold mt-8">Expense Book</h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Developed Responsive replica of OLX user interface using HTML,
-                  Tailwind, and JavaScript.Demonstrated proficiency in front-end
-                  web development and UI design principles.
+                  Expense Book is a user-friendly web application designed to
+                  simplify personal finance management. It is Developed using
+                  HTML, Tailwind CSS and JavaScript and data is storing in Local
+                  Storage.
                 </p>
                 <div class="pt-5 pb-2 flex gap-2 justify-center">
                   <a
                     target="blank"
-                    href="https://github.com/Sharjeelcode/React-olxClone"
+                    href="https://github.com/TauseefHaider/expense-book.git"
                   >
                     <button class="group flex justify-center items-center gap-2 group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-neutral-900 duration-500 hover:duration-500 underline underline-offset-2 hover:underline hover:underline-offset-4 origin-left hover:decoration-2 hover:text-neutral-300 relative bg-neutral-900 px-4 py-4 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden after:absolute after:z-10 after:w-12 after:h-12 after:content[''] after:bg-sky-900 after:-left-8 after:top-8 after:rounded-full after:blur-lg hover:after:animate-pulse">
                       <svg
@@ -182,7 +183,7 @@ function App() {
                   </a>
                   <a
                     target="blank"
-                    href="https://react-olx-clone-xi.vercel.app/"
+                    href="https://tauseefhaider.github.io/expense-book/"
                   >
                     <button class="group flex justify-center items-center gap-2 group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-neutral-900 duration-500 hover:duration-500 underline underline-offset-2 hover:underline hover:underline-offset-4 origin-left hover:decoration-2 hover:text-neutral-300 relative bg-neutral-900 px-4 py-4 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden after:absolute after:z-10 after:w-12 after:h-12 after:content[''] after:bg-sky-900 after:-left-8 after:top-8 after:rounded-full after:blur-lg hover:after:animate-pulse">
                       preview
@@ -195,16 +196,16 @@ function App() {
                 class="md:m-12 bg-[#171F38] shadow-[#209CE4] shadow-xl border-[#209CE4]  border-2  rounded-xl hover:scale-110 duration-700 p-5"
               >
                 <img src={Project2} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold mt-8">Airbnb Clone</h3>
+                <h3 className="text-2xl font-semibold mt-8">Graana Clone</h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive Developed Airbnb Clone application using Tailwind
+                  Responsive Developed Graana Clone application using Tailwind
                   CSS, React.js and Firebase. Implemented user authentication,
-                  property listings, and real-time updates
+                  property listings, property search and real-time updates.
                 </p>
                 <div class="pt-5 pb-2 flex gap-2 justify-center">
                   <a
                     target="blank"
-                    href="https://github.com/Sharjeelcode/airbnb-Clone"
+                    href="https://github.com/TauseefHaider/graana-clone.git"
                   >
                     <button class="group flex justify-center items-center gap-2 group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-neutral-900 duration-500 hover:duration-500 underline underline-offset-2 hover:underline hover:underline-offset-4 origin-left hover:decoration-2 hover:text-neutral-300 relative bg-neutral-900 px-4 py-4 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden after:absolute after:z-10 after:w-12 after:h-12 after:content[''] after:bg-sky-900 after:-left-8 after:top-8 after:rounded-full after:blur-lg hover:after:animate-pulse">
                       <svg
@@ -227,7 +228,7 @@ function App() {
                   </a>
                   <a
                     target="blank"
-                    href="https://profolio-2-airbnbclone.netlify.app/"
+                    href="https://graana-clone-nine.vercel.app/"
                   >
                     <button class="group flex justify-center items-center gap-2 group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-neutral-900 duration-500 hover:duration-500 underline underline-offset-2 hover:underline hover:underline-offset-4 origin-left hover:decoration-2 hover:text-neutral-300 relative bg-neutral-900 px-4 py-4 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden after:absolute after:z-10 after:w-12 after:h-12 after:content[''] after:bg-sky-900 after:-left-8 after:top-8 after:rounded-full after:blur-lg hover:after:animate-pulse">
                       preview
@@ -421,7 +422,7 @@ function App() {
                   2023
                 </h3>
                 <p data-aos="fade-left">
-                  Online Bootcamp of Front end web development from Institute of
+                  Online Bootcamp of Frontend web development from Institute of
                   Emerging Careers
                 </p>
               </div>
@@ -433,8 +434,7 @@ function App() {
                   2023
                 </h3>
                 <p data-aos="fade-left">
-                  Artificial Intelligence, Web 3.0 & Metaverse from Governor
-                  Sindh Initiative
+                  Frontend web development Udemy course Certificate
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
@@ -445,7 +445,8 @@ function App() {
                   2021
                 </h3>
                 <p data-aos="fade-left">
-                  B-Tech Hons mechanical from Indus university
+                  BSC Double Math and Computer From Bahauddin Zakriya Universty
+                  Multan
                 </p>
               </div>
             </div>
@@ -460,14 +461,14 @@ function App() {
           <div>
             <ul className="flex gap-4">
               <li>
-                <a target="blank" href="https://github.com/Sharjeelcode">
+                <a target="blank" href="https://github.com/TauseefHaider">
                   <img src={github} className="w-5 cursor-pointer" />
                 </a>
               </li>
               <li>
                 <a
                   target="blank"
-                  href="https://www.linkedin.com/in/sharjeel-ahmed3/"
+                  href="https://www.linkedin.com/in/tauseef-haider5/"
                 >
                   <img src={LinkedIn} className="w-5 cursor-pointer" />
                 </a>
@@ -475,7 +476,7 @@ function App() {
               <li>
                 <a
                   target="blank"
-                  href="https://www.instagram.com/sharjeelshery?igsh=MWxuankyYjMwb3R2MA=="
+                  href="https://www.instagram.com/oye_toshii/?igsh=ZDM3ZW5wcXlkajJ6"
                 >
                   <img src={Instagram} className="w-5 cursor-pointer" />
                 </a>
