@@ -104,7 +104,7 @@ function App() {
                 <a
                   data-aos="zoom-out-up"
                   className="flex justify-center lg:block"
-                  href="https://drive.usercontent.google.com/u/0/uc?id=1rrISBwCM_XuEdH9ymDilXW33m-HcQY4I&export=download"
+                  href="https://drive.google.com/file/d/1Btz-uhuDSMXogVuLGqIIsKC1MJzeCSE7/view"
                 >
                   <button class="px-8 shadow-gray-500 shadow-md py-4 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 flex justify-center">
                     Download resume {"\t"}
@@ -150,17 +150,17 @@ function App() {
                 class="md:m-12 bg-[#171F38]  shadow-[#209CE4] shadow-xl border-2  border-[#209CE4] rounded-xl hover:scale-110 duration-700 p-5"
               >
                 <img src={Project1} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold mt-8">Expense Book</h3>
+                <h3 className="text-2xl font-semibold mt-8">Weather API</h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Expense Book is a user-friendly web application designed to
-                  simplify personal finance management. It is Developed using
-                  HTML, Tailwind CSS and JavaScript and data is storing in Local
-                  Storage.
+                  A Weather App built with React using the Weather API, API
+                  integration, and Context API for state management. It features
+                  geolocation to fetch and display location-specific weather
+                  data on refresh, ensuring a seamless user experience.
                 </p>
                 <div class="pt-5 pb-2 flex gap-2 justify-center">
                   <a
                     target="blank"
-                    href="https://github.com/TauseefHaider/expense-book.git"
+                    href="https://github.com/TauseefHaider/weather_app.git"
                   >
                     <button class="group flex justify-center items-center gap-2 group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-neutral-900 duration-500 hover:duration-500 underline underline-offset-2 hover:underline hover:underline-offset-4 origin-left hover:decoration-2 hover:text-neutral-300 relative bg-neutral-900 px-4 py-4 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden after:absolute after:z-10 after:w-12 after:h-12 after:content[''] after:bg-sky-900 after:-left-8 after:top-8 after:rounded-full after:blur-lg hover:after:animate-pulse">
                       <svg
@@ -183,7 +183,7 @@ function App() {
                   </a>
                   <a
                     target="blank"
-                    href="https://tauseefhaider.github.io/expense-book/"
+                    href="https://weather-app-ebon-two-28.vercel.app/"
                   >
                     <button class="group flex justify-center items-center gap-2 group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-neutral-900 duration-500 hover:duration-500 underline underline-offset-2 hover:underline hover:underline-offset-4 origin-left hover:decoration-2 hover:text-neutral-300 relative bg-neutral-900 px-4 py-4 border text-left p-3 text-gray-50 text-base font-bold rounded-lg overflow-hidden after:absolute after:z-10 after:w-12 after:h-12 after:content[''] after:bg-sky-900 after:-left-8 after:top-8 after:rounded-full after:blur-lg hover:after:animate-pulse">
                       preview
@@ -311,7 +311,7 @@ function App() {
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">CSS, Sass & Bootstrap</h2>
+                  <h2 className="font-semibold">CSS, Bootstrap</h2>
                   <p className="text-gray-500">Intermediate</p>
                 </div>
                 <span
@@ -342,7 +342,17 @@ function App() {
 
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">React</h2>
+                  <h2 className="font-semibold">React JS</h2>
+                  <p className="text-gray-500">Intermediate</p>
+                </div>
+                <span
+                  data-aos="flip-right"
+                  className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md"
+                />
+              </div>
+              <div className="mt-8">
+                <div className="flex justify-between items-center">
+                  <h2 className="font-semibold">Next JS</h2>
                   <p className="text-gray-500">Intermediate</p>
                 </div>
                 <span
@@ -468,7 +478,7 @@ function App() {
               <li>
                 <a
                   target="blank"
-                  href="https://www.linkedin.com/in/tauseef-haider5/"
+                  href="https://www.linkedin.com/in/tauseef-haider1/"
                 >
                   <img src={LinkedIn} className="w-5 cursor-pointer" />
                 </a>
