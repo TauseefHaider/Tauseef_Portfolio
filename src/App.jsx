@@ -8,7 +8,7 @@ import reactlogo from "../src/assets/react.png";
 import firebase from "../src/assets/firebase.png";
 import github from "../src/assets/github.png";
 import sass from "../src/assets/sass.png";
-import Project1 from "./assets/project1.png";
+import Project1 from "./assets/project1.JPG";
 import Project2 from "./assets/project2.png";
 import LinkedIn from "./assets/linkedin.svg";
 import Instagram from "./assets/instagram.svg";
