@@ -8,7 +8,7 @@ import reactlogo from "../src/assets/react.png";
 import firebase from "../src/assets/firebase.png";
 import github from "../src/assets/github.png";
 import sass from "../src/assets/sass.png";
-import Project1 from "./assets/project1.JPG";
+import Project1 from "./assets/weather.png";
 import Project2 from "./assets/project2.png";
 import LinkedIn from "./assets/linkedin.svg";
 import Instagram from "./assets/instagram.svg";
@@ -150,7 +150,7 @@ function App() {
                 class="md:m-12 bg-[#171F38]  shadow-[#209CE4] shadow-xl border-2  border-[#209CE4] rounded-xl hover:scale-110 duration-700 p-5"
               >
                 <img src={Project1} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold mt-8">Weather API</h3>
+                <h3 className="text-2xl font-semibold mt-8">Weather APP</h3>
                 <p className="text-gray-400 text-sm mt-2">
                   A Weather App built with React using the Weather API, API
                   integration, and Context API for state management. It features
