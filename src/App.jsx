@@ -362,7 +362,7 @@ function App() {
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">Firebase.</h2>
+                  <h2 className="font-semibold">Firebase</h2>
                   <p className="text-gray-500">Intermediate</p>
                 </div>
                 <span
